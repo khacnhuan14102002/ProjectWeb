@@ -1,0 +1,182 @@
+body{margin-top:50px;
+    /*background-image: linear-gradient(hsl(38deg 56% 71%), #e7d2ba);*/
+    background-color: hsl(38deg 56% 71%);
+    margin-left: 450px;
+
+}
+.container  .title{
+margin-left: 225px;
+    color:white;
+}
+
+.link-p {
+    display: block;
+    min-height: 250px;
+    height: auto;
+    width: 100%;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* TABLES */
+.table {
+    border-collapse: separate;
+}
+.table .mn{
+    color:white;
+    font-size: 14px;
+
+}
+.npr a{
+    text-decoration:none;
+    color:black;
+}
+.remove_cart i{
+    color: #705330;
+}
+.table-hover > tbody > tr:hover > td,
+.table-hover > tbody > tr:hover > th {
+    background-color: #f8f2f2;
+}
+.table thead > tr > th {
+    border-bottom: 1px solid #f8f2f2;
+    padding-bottom: 0;
+}
+.table tbody > tr > td {
+    font-size: 0.875em;
+    background: #f8f2f2;
+    border-top: 10px solid #fff;
+    vertical-align: middle;
+    padding: 12px 8px;
+}
+.table tbody > tr > td:first-child,
+.table thead > tr > th:first-child {
+    padding-left: 20px;
+}
+.table thead > tr > th span {
+    border-bottom: 2px solid #f8f2f2;
+    display: inline-block;
+    padding: 0 5px;
+    padding-bottom: 5px;
+    font-weight: normal;
+
+}
+
+.table thead > tr > th > a span {
+    color: #000a09;
+
+}
+.table thead > tr > th > a span:after {
+    content: "\f0dc";
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    margin-left: 15px;
+    font-size: 0.75em;
+}
+.table thead > tr > th > a.asc span:after {
+    content: "\f0dd";
+}
+.table thead > tr > th > a.desc span:after {
+    content: "\f0de";
+}
+.table thead > tr > th > a:hover span {
+    text-decoration: none;
+    color: #2bb6a3;
+    border-color: #2bb6a3;
+}
+.table.table-hover tbody > tr > td {
+    -webkit-transition: background-color 0.15s ease-in-out 0s;
+    transition: background-color 0.15s ease-in-out 0s;
+}
+.table tbody tr td .call-type {
+    display: block;
+    font-size: 0.75em;
+    text-align: center;
+}
+.table tbody tr td .first-line {
+    line-height: 1.5;
+    font-weight: 400;
+    font-size: 1.125em;
+}
+
+.table tbody tr td .first-line span {
+    font-size: 0.875em;
+    color:white;
+    font-weight: 300;
+}
+.table tbody tr td .second-line {
+    font-size: 0.875em;
+    line-height: 1.2;
+}
+.table a.table-link {
+    margin: 0 5px;
+    font-size: 1.125em;
+}
+.table a.table-link:hover {
+    text-decoration: none;
+    color: #2aa493;
+}
+.table a.table-link.danger {
+    color: #fe635f;
+}
+.table a.table-link.danger:hover {
+    color: #dd504c;
+}
+
+.table-products tbody > tr > td {
+    background: none;
+    border: none;
+    border-bottom: 1px solid #ebebeb;
+    -webkit-transition: background-color 0.15s ease-in-out 0s;
+    transition: background-color 0.15s ease-in-out 0s;
+    position: relative;
+}
+.table-products tbody > tr:hover > td {
+    text-decoration: none;
+    background-color: #f6f6f6;
+}
+.table-products .name {
+    display: block;
+    font-weight: 600;
+    padding-bottom: 7px;
+
+}
+.table-products .price {
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    float: left;
+    font-size: 0.875em;
+}
+.table-products .price > i {
+    color: #8dc859;
+}
+.table-products .warranty {
+    display: block;
+    text-decoration: none;
+    width: 50%;
+    float: left;
+    font-size: 0.875em;
+}
+.table-products .warranty > i {
+    color: #f1c40f;
+}
+.bt {
+    color:white;
+    background:#a97c47;
+border: #a97c47;
+  height: 25px;
+    width: 150px;
+    margin-left: 25px;
+    margin-top: 15px;
+
+}
+
+.bt a{
+    color:white;
+    text-decoration: none;
+
+}
