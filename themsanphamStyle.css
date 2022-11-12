@@ -1,0 +1,32 @@
+.form-them{
+    background-color: rgba(203, 158, 88, 0.65);
+    height: 650px;
+    width: 800px;
+    margin-left: 350px;
+}
+.form-them p{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 25px;
+margin-bottom: 25px;
+}
+label{
+    width: 30%;
+    margin-left: 40px;
+    margin-bottom: 25px;
+}
+input[type=text] {
+ width: 60%;
+}
+#name_mota{
+    height: 255px;
+    margin-bottom: 25px;
+}
+.button{
+    margin-top: 15px;
+   margin-left: 450px;
+   font-weight: bold;
+    height: 45px;
+    width: 150px;
+}
